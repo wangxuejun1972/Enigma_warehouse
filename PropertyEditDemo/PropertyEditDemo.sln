@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PropertyEditDemo", "PropertyEditDemo\PropertyEditDemo.vcxproj", "{4DF2DBA4-CDE2-4FA0-95C1-C6F753D50174}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DF2DBA4-CDE2-4FA0-95C1-C6F753D50174}.Debug|x86.ActiveCfg = Debug|Win32
+		{4DF2DBA4-CDE2-4FA0-95C1-C6F753D50174}.Debug|x86.Build.0 = Debug|Win32
+		{4DF2DBA4-CDE2-4FA0-95C1-C6F753D50174}.Release|x86.ActiveCfg = Release|Win32
+		{4DF2DBA4-CDE2-4FA0-95C1-C6F753D50174}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = msvc2017
+		SolutionGuid = {50DC87A0-7738-4564-801A-2FD502E5F261}
+	EndGlobalSection
+EndGlobal

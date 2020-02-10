@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="property">
+      <UniqueIdentifier>{ddd0f44d-1824-4aea-bf55-b3976d9f5a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memLeak">
+      <UniqueIdentifier>{dc48c63e-2a62-4871-9a9e-9fd76d6bfa84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="propertyeditdemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\property\fhpropertydelegate.cpp">
+      <Filter>property</Filter>
+    </ClCompile>
+    <ClCompile Include="..\property\fhpropertyitem.cpp">
+      <Filter>property</Filter>
+    </ClCompile>
+    <ClCompile Include="..\property\fhpropertymodel.cpp">
+      <Filter>property</Filter>
+    </ClCompile>
+    <ClCompile Include="..\property\fhpropertytreeview.cpp">
+      <Filter>property</Filter>
+    </ClCompile>
+    <ClCompile Include="..\property\fhpropertywidget.cpp">
+      <Filter>property</Filter>
+    </ClCompile>
+    <ClCompile Include="..\memLeak\memtracer.cpp">
+      <Filter>memLeak</Filter>
+    </ClCompile>
+    <ClCompile Include="xjmodeltree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="propertyeditdemo.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\property\fhpropertydelegate.h">
+      <Filter>property</Filter>
+    </QtMoc>
+    <QtMoc Include="..\property\fhpropertymodel.h">
+      <Filter>property</Filter>
+    </QtMoc>
+    <QtMoc Include="..\property\fhpropertytreeview.h">
+      <Filter>property</Filter>
+    </QtMoc>
+    <QtMoc Include="..\property\fhpropertywidget.h">
+      <Filter>property</Filter>
+    </QtMoc>
+    <QtMoc Include="xjmodeltree.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="propertyeditdemo.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="propertyeditdemo.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\property\fhpropertybasedef.h">
+      <Filter>property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\property\fhpropertyitem.h">
+      <Filter>property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\property\fhrange.h">
+      <Filter>property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\property\icallback_fhproperty.h">
+      <Filter>property</Filter>
+    </ClInclude>
+    <ClInclude Include="..\memLeak\memdebug.h">
+      <Filter>memLeak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\memLeak\memtracer.h">
+      <Filter>memLeak</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
